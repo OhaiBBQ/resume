@@ -72,7 +72,7 @@
         "start": "January 2015",
         "end": "June 2016"
       },
-      "blurb": "Overhauled a Wordpress-based peer-to-peer e-commerce platform into a modern, scalable, multi-tenant Ruby on Rails & React application. Facilitated the process by creating a strong community feedback loop.",
+      "blurb": null,
       "accomplishments": [
         "Developed highly responsive UGC displays for use on mobile, tablet, jumbotron, and Digital Out Of Home displays",
         "Architected front-end SDK for consuming social media content and responding to real time platform notifications which enabled out-of-house development",
