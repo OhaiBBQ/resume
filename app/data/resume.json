@@ -1,7 +1,7 @@
 {
   "name": "Dan<br/> Hansen",
   "title": "Software Engineer",
-  "blurb": "I'm Dan Hansen, a Ruby on Rails and JavaScript specialist who loves turning complex problems into simple-to-use interfaces with meticulous attention to detail. I've led projects at businesses such as <a href='https://pivotallabs.com'>Pivotal Labs</a>, <a href='https://tintup.com'>TINT</a>, and <a href='https://backerkit.com'>BackerKit</a> over the past 6 years.",
+  "blurb": "I'm Dan Hansen, a Ruby on Rails and JavaScript specialist who loves turning complex problems into simple-to-use interfaces with meticulous attention to detail. I've led projects at businesses such as <a href='https://pivotal.io'>Pivotal Labs</a>, <a href='https://tintup.com'>TINT</a>, and <a href='https://backerkit.com'>BackerKit</a> over the past 6 years.",
   "skillsets": [
     {
       "title": "Hard Skills",
@@ -42,7 +42,7 @@
         "start": "June 2016",
         "end": null
       },
-      "blurb": "Alongside studying music theory with Berklee College of Music, I helped my good friend out with her business and held contracting engagements with TINT, BackerKit and Data Alchemy.",
+      "blurb": "Alongside studying music theory with Berklee College of Music, I helped my good friend out with her business, Circlly, and held contracting engagements with TINT, BackerKit and Data Alchemy.",
       "accomplishments": [
         "Implemented continuous delivery of a NodeJS microservice to Amazon's Elastic Container Registry (ECR)",
         "Decreased front-end application selenium test-suite duration by 50%",
