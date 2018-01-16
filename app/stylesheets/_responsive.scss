@@ -23,6 +23,14 @@
     }
   }
 
+  .resume__menu {
+    font-size: 2rem;
+  }
+
+  .resume__blurb {
+    font-size: 1.25rem;
+  }
+
   .resume__item h2 {
     font-size: 2.25rem;
   }
@@ -33,7 +41,7 @@
 
   .resume__personal_information {
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.25;
   }
 
   .resume__item span.resume__position_description {
@@ -45,4 +53,3 @@
     margin-top: 2rem;
   }
 }
-
