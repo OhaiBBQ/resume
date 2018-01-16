@@ -1,59 +1,81 @@
 @media print {
   .resume__container {
-    background-color: white;
+    width: 100%;
+    padding: 15px;
     margin-top: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  .resume__columnn-right {
+    background-color: white;
   }
 
   .resume__item {
-    margin-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 10px 15px;
+  }
 
+  .resume__column-right .resume__item {
     h2::before {
       height: 0;
     }
   }
 
-  .resume__introduction {
-    margin-bottom: 0;
-  }
-
   .resume__item, .resume__introduction, .resume__blurb {
-    border-right: none;
-    border-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 
     &::before, &::after {
       display: none;
     }
   }
 
-  .resume__item h2,
-  .resume__item .resume__position_description,
-  .resume__item ul {
+  .resume__columns {
+    flex-direction: column;
+
+    .resume__column-left {
+      min-width: 100%;
+      margin-right: 0;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .resume__item-skills:first-child {
+    margin-right: 15px;
+  }
+
+  .resume__item h2, .resume__position_description, .resume__item li {
     page-break-inside: avoid;
   }
 
-  .resume__columns .resume__column-left {
-    min-width: 300px;
-    margin-right: 0;
-    border-right: 2px solid $darker-border-gray;
-    align-items: stretch;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
+  .resume__item h2 {
+    page-break-after: avoid;
+  }
 
-    .resume__item {
-      background-color: $border-gray;
-    }
+  .resume__columns .resume__column-right .resume__item {
+    border-bottom: 0;
+    margin-bottom: 0;
 
-    :last-child {
-      flex-grow: 1;
+    &:last-child {
+      border-bottom: 7px solid $darker-border-gray;
     }
   }
 
   .resume__menu {
     display: none;
+  }
+
+  .resume__item-skills ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+    li {
+      width: 50%;
+    }
   }
 }

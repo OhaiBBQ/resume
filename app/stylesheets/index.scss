@@ -37,14 +37,11 @@ $box-border-width: 7px;
 @import 'responsive';
 
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: $gray;
   font-family: 'Lato', sans-serif;
-  padding: 0;
 }
 
 div {
