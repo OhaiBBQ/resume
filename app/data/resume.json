@@ -1,7 +1,7 @@
 {
   "name": "Dan<br/> Hansen",
   "title": "Software Engineer",
-  "blurb": "I'm Dan Hansen, a team-player who loves turning complex problems into simple-to-use interfaces with meticulous attention to detail. I've specialized in Ruby on Rails and JavaScript for businesses such as <a href='https://pivotallabs.com'>Pivotal Labs</a>, <a href='https://tintup.com'>TINT</a>, and <a href='https://backerkit.com'>BackerKit</a> over the past 6 years.",
+  "blurb": "I'm Dan Hansen, a Ruby on Rails and JavaScript specialist who loves turning complex problems into simple-to-use interfaces with meticulous attention to detail. I've led projects at businesses such as <a href='https://pivotallabs.com'>Pivotal Labs</a>, <a href='https://tintup.com'>TINT</a>, and <a href='https://backerkit.com'>BackerKit</a> over the past 6 years.",
   "skillsets": [
     {
       "title": "Hard Skills",
@@ -11,7 +11,7 @@
         "SQL",
         "Selenium",
         "RSpec",
-        "Web Accessibility",
+        "Web Accessibility (ARIA)",
         "React",
         "Redux",
         "SCSS",
@@ -25,11 +25,11 @@
         "Patient",
         "Calm",
         "Inquisitive",
-        "Self-Motivated",
+        "Proactive",
         "Attentive to detail",
         "Positive work ethic",
-        "Time Management",
-        "Communication"
+        "Communicative",
+        "Creative"
       ]
     }
   ],
@@ -42,11 +42,11 @@
         "start": "June 2016",
         "end": null
       },
-      "blurb": "In 2016, I took some time off from full-time work to study music theory at Berklee college of music, and help my good friend out with her business, Circlly. I held contract engagements with TINT, BackerKit and Data Alchemy.",
+      "blurb": "Alongside studying music theory with Berklee College of Music, I helped my good friend out with her business and held contracting engagements with TINT, BackerKit and Data Alchemy.",
       "accomplishments": [
-        "Implemented continuous delivery of a NodeJS microservice to Amazon's Elastic Container Registry",
+        "Implemented continuous delivery of a NodeJS microservice to Amazon's Elastic Container Registry (ECR)",
         "Decreased front-end application selenium test-suite duration by 50%",
-        "Audited web-interface accessibility and brought interface into compliance with the Americans with Disabilities Act for screen reader and keyboard users"
+        "Audited web-interface accessibility and brought interface into compliance with the Americans with Disabilities Act (ADA)"
       ]
     },
     {
@@ -60,7 +60,7 @@
       "blurb": "Overhauled a Wordpress-based peer-to-peer e-commerce platform into a modern, scalable, multi-tenant Ruby on Rails & React application. Facilitated the process by creating a strong community feedback loop.",
       "accomplishments": [
         "Migrated PHP / MySQL architecture to Rails / PostgreSQL resulting in a 90% decrease in server response time",
-        "Implemented React-Native application and JSON API for fast browsing of store listings",
+        "Researched, designed, and implemented mobile UI patterns for our React-Native application",
         "Tested, analyzed, and adapted AdSense ad performance resulting in 60% increase in revenue"
       ]
     },
@@ -72,12 +72,12 @@
         "start": "January 2015",
         "end": "June 2016"
       },
-      "blurb": null,
+      "blurb": "At TINT I mentored junior teammates, sharing best practices and assisting in complex debugging scenarios. I held high standards for testing discipline and code reviews. Additionally, I conceived, coordinated and actualized several UI refresh schemes. ",
       "accomplishments": [
         "Developed highly responsive UGC displays for use on mobile, tablet, jumbotron, and Digital Out Of Home displays",
         "Architected front-end SDK for consuming social media content and responding to real time platform notifications which enabled out-of-house development",
         "Created architecture walk-through documents, led RSpec and Selenium workshops to teach new-hires best practices",
-        " Spearheaded creating Work from Home / Remote work communication standards and expectations to enable cohesive cross-timezone collaboration"
+        "Spearheaded creating Work from Home / Remote work communication standards and expectations to enable cohesive cross-timezone collaboration"
       ]
     },
     {
@@ -90,7 +90,7 @@
       },
       "blurb": "Joined BackerKit as the first employee. Took on full responsibility for running development cycles and fleshing out the web interface. Facilitated the fulfillment of over 200,000 crowdfunding pre-orders and generated $1,000,000+ in revenue for our customers.",
       "accomplishments": [
-        "Implemented, led and adapted agile practices as the team grew from 3 to 14",
+        "Implemented, led and adapted agile practices as our team grew from 3 to 14",
         "Conceived BackerKit postage which allowed users to buy, print and pack shipments in bulk. Used parallel job-processing for bulk REST integration calls",
         "Created Kickstarter and IndieGoGo spider to measure  market reach, market cap, and generate leads for our sales team",
         "Worked closely with customers to identify and extrapolate product features"
@@ -106,7 +106,7 @@
       },
       "blurb": "Joined Pivotal Labs as a full-time consultant. Pair-programmed with client developers to teach Agile methodologies, Test Driven Development, and Rails.",
       "accomplishments": [
-        "Rewrote Pivotal Tracker front-end to feature-parity  in Backbone JS, consolidating the previous architecture that used YUI, Prototype, and jQuery",
+        "Rewrote Pivotal Tracker front-end to feature-parity in Backbone JS, consolidating the previous architecture that used YUI, Prototype, and jQuery",
         "Load-tested and put caching and content-delivery systems into place for The X-Factor website launch that received 100k+ requests/hour upon airing",
         "Worked side-by-side with in-house developers from Japan’s NTT DoCoMo to create an Android launcher / home-screen prototype",
         "Developed Android application and Rails JSON API for a social-shopping service"
