@@ -1,0 +1,23 @@
+.resume__menu {
+  text-align: right;
+  margin-bottom: 30px;
+
+  button, a {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: transparent;
+    line-height: 1.75;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a {
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Dan<br/> Hansen",
+  "title": "Software Engineer",
+  "blurb": "I'm Dan Hansen, a team-player who loves turning complex problems into simple-to-use interfaces with <strong>meticulous</strong> attention to detail. I've specialized in <strong>Ruby on Rails</strong> and <strong>JavaScript</strong> for businesses such as <strong>Pivotal Labs</strong>, <strong>TINT</strong>, and <strong>BackerKit</strong> over the past 6 years.",
+  "skillsets": [
+    {
+      "title": "Soft Skills",
+      "skills": [
+        "Humble",
+        "Patient",
+        "Calm",
+        "Inquisitive",
+        "Self-Motivated",
+        "Attentive to detail",
+        "Positive work ethic",
+        "Time Management",
+        "Communication"
+      ]
+    },
+    {
+      "title": "Hard Skills",
+      "skills": [
+        "Ruby",
+        "JavaScript",
+        "SQL",
+        "Selenium",
+        "RSpec",
+        "Web Accessibility",
+        "React",
+        "Redux",
+        "SCSS",
+        "Responsive Design"
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "company": null,
+      "title": "Independent Contractor",
+      "location": "Oakland, CA",
+      "timeline": {
+        "start": "June 2016",
+        "end": null
+      },
+      "blurb": "In 2016, I took some time off from full-time work to study music theory at Berklee college of music, and help my good friend out with her business, Circlly. I held contract engagements with TINT, BackerKit and Data Alchemy.",
+      "accomplishments": [
+        "Implemented continuous delivery of a NodeJS microservice to Amazon's Elastic Container Registry",
+        "Decreased front-end application selenium test-suite duration by 50%",
+        "Audited web-interface accessibility and brought interface into compliance to with the Americans with Disabilities Act for screen reader and keyboard users"
+      ]
+    },
+    {
+      "company": "Circlly",
+      "title": "Founding Engineer",
+      "location": "Oakland, CA",
+      "timeline": {
+        "start": "June 2016",
+        "end": null
+      },
+      "blurb": "Overhauled a Wordpress-based peer-to-peer e-commerce platform into a modern, scalable, multi-tenant Ruby on Rails & React application. Facilitated the process by creating a strong community feedback loop.",
+      "accomplishments": [
+        "Migrated PHP / MySQL architecture to Rails / PostgreSQL resulting in a 90% decrease in server response time",
+        "Implemented React-Native application and JSON API for fast browsing of store listings",
+        "Tested, analyzed, and adapted AdSense ad performance resulting in 60% increase in revenue"
+      ]
+    },
+    {
+      "company": "TINT",
+      "title": "Software Engineer",
+      "location": "San Francisco, CA",
+      "timeline": {
+        "start": "January 2015",
+        "end": "June 2016"
+      },
+      "blurb": "Overhauled a Wordpress-based peer-to-peer e-commerce platform into a modern, scalable, multi-tenant Ruby on Rails & React application. Facilitated the process by creating a strong community feedback loop.",
+      "accomplishments": [
+        "Developed highly responsive UGC displays for use on mobile, tablet, jumbotron, and Digital Out Of Home displays",
+        "Architected front-end SDK for consuming social media content and responding to real time platform notifications which enabled out-of-house development",
+        "Created architecture walk-through documents, led RSpec and Selenium workshops to teach new-hires best practices",
+        " Spearheaded creating Work from Home / Remote work communication standards and expectations to enable cohesive cross-timezone collaboration"
+      ]
+    },
+    {
+      "company": "BackerKit",
+      "title": "Lead Engineer",
+      "location": "San Francisco, CA",
+      "timeline": {
+        "start": "May 2013",
+        "end": "December 2014"
+      },
+      "blurb": "Joined BackerKit as the first employee. Took on full responsibility for running development cycles and fleshing out the web interface. Facilitated the fulfillment of over 200,000 crowdfunding pre-orders and generated $1,000,000+ in revenue for our customers.",
+      "accomplishments": [
+        "Implemented, led and adapted agile practices as the team grew from 3 to 14",
+        "Conceived BackerKit postage which allowed users to buy, print and pack shipments in bulk. Used parallel job-processing for bulk REST integration calls",
+        "Created Kickstarter and IndieGoGo spider to measure  market reach, market cap, and generate leads for our sales team",
+        "Worked closely with customers to identify and extrapolate product features"
+      ]
+    },
+    {
+      "company": "Pivotal Labs",
+      "title": "Software Engineer",
+      "location": "San Francisco, CA",
+      "timeline": {
+        "start": "June 2012",
+        "end": "May 2013"
+      },
+      "blurb": "Joined Pivotal Labs as a full-time consultant. Pair-programmed with client developers to teach Agile methodologies, Test Driven Development, and Rails.",
+      "accomplishments": [
+        "Rewrote Pivotal Tracker front-end to feature-parity  in Backbone JS, consolidating the previous architecture that used YUI, Prototype, and jQuery",
+        "Load-tested and put caching and content-delivery systems into place for The X-Factor website launch that received 100k+ requests/hour upon airing",
+        "Worked side-by-side with in-house developers from Japan’s NTT DoCoMo to create an Android launcher / home-screen prototype",
+        "Developed Android application and Rails JSON API for a social-shopping service"
+      ]
+    }
+  ]
+}

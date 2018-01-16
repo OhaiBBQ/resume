@@ -1,0 +1,8 @@
+.git/
+.idea/
+node_modules/
+app/data/pii.json
+public/build/
+.sass-cache/
+.gulp-scss-cache/
+index.html

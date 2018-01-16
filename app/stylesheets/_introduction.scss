@@ -1,0 +1,62 @@
+$subheading-font-size: 24px;
+$padding: 25px;
+
+.resume__introduction {
+  background-color: $blue;
+  border-right: $box-border-width solid $dark-blue;
+  border-bottom: $box-border-width solid $darker-blue;
+
+  color: white;
+
+  position: relative;
+  margin-bottom: 30px;
+  padding: $padding;
+
+
+  h1 {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: $subheading-font-size;
+    font-weight: 500;
+  }
+
+  h1, h2 {
+    margin: 0;
+    letter-spacing: 1px;
+  }
+}
+
+
+.resume__personal_information {
+  position: absolute;
+  line-height: $subheading-font-size;
+  bottom: $padding;
+  right: $padding;
+}
+
+
+.resume__blurb {
+  color: white;
+  background-color: $green;
+  border-right: 7px solid $dark-green;
+  border-bottom: 7px solid $darker-green;
+  padding: 25px;
+  line-height: 1.5;
+  font-size: 17px;
+  margin-bottom: 30px;
+  position: relative;
+
+
+  strong {
+    border-bottom: 1px solid white;
+  }
+}
+
+
+.resume__introduction, .resume__blurb {
+  text-shadow: -1px 1px $muted;
+}

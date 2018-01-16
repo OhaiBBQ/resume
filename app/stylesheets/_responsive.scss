@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+  .resume__container {
+    width: 100%;
+    padding: 30px;
+    margin-top: 0;
+  }
+
+  .resume__columns {
+    flex-direction: column;
+
+    .resume__column-left {
+      min-width: 100%;
+      margin-right: 0;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      > div {
+        flex-grow: 1;
+        max-width: 48%;
+      }
+    }
+  }
+
+  .resume__item h2 {
+    font-size: 2.25rem;
+  }
+
+  .resume__item.resume__item-skills ul {
+    font-size: 1.25rem;
+  }
+
+  .resume__personal_information {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .resume__item span.resume__position_description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .resume__item h4 {
+    margin-top: 2rem;
+  }
+}
+

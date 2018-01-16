@@ -1,0 +1,56 @@
+// http://www.colourlovers.com/palette/482774/dream_magnet
+// http://www.colourlovers.com/palette/1527452/Conpixeles
+// http://www.colourlovers.com/palette/3419346/Sunny
+// http://www.colourlovers.com/palette/3565168/Fresco
+// http://www.colourlovers.com/palette/3565168/Fresco
+
+
+$gray: #343838;
+$muted: #616565;
+$blue: #4a89dc;
+$dark-blue: #3465b8;
+$darker-blue: #2859b2;
+$red: #C92E14;
+$dark-red: #A3180F;
+$yellow: #ffce54;
+$dark-yellow: #DEAC3B;
+$green: #26c281;
+$dark-green: #1D7D42;
+$darker-green: #16764C;
+$orange: #fe8740;
+$dark-orange: #D04E22;
+$darker-orange: #CA3B1D;
+
+$border-gray: #D7D4CB;
+$darker-border-gray: #C9CBCB;
+
+$container-width: 1000px;
+$box-border-width: 7px;
+
+@import 'container';
+@import 'menu';
+@import 'columns';
+@import 'introduction';
+@import 'item';
+@import 'mask';
+@import 'print';
+@import 'responsive';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $gray;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: square;
+}

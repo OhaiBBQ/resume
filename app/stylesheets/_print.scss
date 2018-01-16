@@ -1,0 +1,59 @@
+@media print {
+  .resume__container {
+    background-color: white;
+    margin-top: 0;
+  }
+
+  .resume__item {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+    h2::before {
+      height: 0;
+    }
+  }
+
+  .resume__introduction {
+    margin-bottom: 0;
+  }
+
+  .resume__item, .resume__introduction, .resume__blurb {
+    border-right: none;
+    border-bottom: 0;
+    margin-bottom: 0;
+
+    &::before, &::after {
+      display: none;
+    }
+  }
+
+  .resume__item h2,
+  .resume__item .resume__position_description,
+  .resume__item ul {
+    page-break-inside: avoid;
+  }
+
+  .resume__columns .resume__column-left {
+    min-width: 300px;
+    margin-right: 0;
+    border-right: 2px solid $darker-border-gray;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+    .resume__item {
+      background-color: $border-gray;
+    }
+
+    :last-child {
+      flex-grow: 1;
+    }
+  }
+
+  .resume__menu {
+    display: none;
+  }
+}

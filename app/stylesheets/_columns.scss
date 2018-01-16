@@ -1,0 +1,14 @@
+.resume__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .resume__column-left {
+    min-width: 270px;
+    margin-right: 30px;
+  }
+
+  .resume__column-right {
+    flex-grow: 1;
+  }
+}

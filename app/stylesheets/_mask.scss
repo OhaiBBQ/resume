@@ -1,0 +1,27 @@
+.resume__introduction, .resume__item, .resume__blurb {
+  &::before {
+    border-width: 0 $box-border-width $box-border-width 0;
+    border-color: transparent $gray;
+    right: -$box-border-width;
+    top: 0;
+  }
+
+  &::after {
+    border-width: $box-border-width 0 0 $box-border-width;
+    border-color: transparent transparent transparent $gray;
+
+    left: 0;
+    bottom: -$box-border-width;
+  }
+
+  &::before, &::after {
+    content: "";
+    border-style: solid;
+
+    position: absolute;
+    z-index: 1;
+
+    width: 0;
+    height: 0;
+  }
+}
