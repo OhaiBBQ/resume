@@ -4,20 +4,6 @@
   "blurb": "I'm Dan Hansen, a team-player who loves turning complex problems into simple-to-use interfaces with <strong>meticulous</strong> attention to detail. I've specialized in <strong>Ruby on Rails</strong> and <strong>JavaScript</strong> for businesses such as <strong>Pivotal Labs</strong>, <strong>TINT</strong>, and <strong>BackerKit</strong> over the past 6 years.",
   "skillsets": [
     {
-      "title": "Soft Skills",
-      "skills": [
-        "Humble",
-        "Patient",
-        "Calm",
-        "Inquisitive",
-        "Self-Motivated",
-        "Attentive to detail",
-        "Positive work ethic",
-        "Time Management",
-        "Communication"
-      ]
-    },
-    {
       "title": "Hard Skills",
       "skills": [
         "Ruby",
@@ -30,6 +16,20 @@
         "Redux",
         "SCSS",
         "Responsive Design"
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "skills": [
+        "Humble",
+        "Patient",
+        "Calm",
+        "Inquisitive",
+        "Self-Motivated",
+        "Attentive to detail",
+        "Positive work ethic",
+        "Time Management",
+        "Communication"
       ]
     }
   ],
