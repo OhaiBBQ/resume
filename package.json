@@ -2,7 +2,7 @@
   "dependencies": {
     "body-parser": "~1.0.0",
     "cookie-parser": "~1.0.0",
-    "ejs": "~0.8.5",
+    "ejs": "~2.5.5",
     "express": "~4.0.0",
     "gulp-browserify": "^0.5.1",
     "lodash": "^4.17.4",
